@@ -153,5 +153,15 @@ namespace CourseManagementSystem_v2
                     }
 
         }
+        //public string CapitalizeTitle(string title) 
+        
+        //{
+        // var words=title.Split(' ');
+        //    for(var i=0; i<words.Length; i++)
+        //    {
+        //        var  word[i] = char.ToUpper(words[i][0]) + words[i].Substring(1).ToLower();
+        //    }
+        // return string.Join(" ", words);
+        //}
     }
 }
