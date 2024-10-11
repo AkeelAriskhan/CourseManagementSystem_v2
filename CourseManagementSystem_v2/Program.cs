@@ -45,7 +45,7 @@ namespace CourseManagementSystem_v2
                         break;
                     case 2:
                         Console.Clear();
-                        //coursemanage.ReadCourses();
+                        coursemanage.ReadCourses();
 
                         break;
                     case 3:
@@ -62,13 +62,13 @@ namespace CourseManagementSystem_v2
                         var Price1 = decimal.Parse(Console.ReadLine());
 
 
-                        //coursemanage.UpdateCourse(courseId1, title1, Duration1, Price1);
+                        coursemanage.UpdateCourse(courseId1, title1, Duration1, Price1);
                         break;
                     case 4:
                         Console.Clear();
                         Console.Write(" Enter a courseId:");
                         var courseId2 = Console.ReadLine();
-                        //coursemanage.DeleteCourse(courseId2);
+                        coursemanage.DeleteCourse(courseId2);
                         break;
                     case 5:
                         exit = false;
